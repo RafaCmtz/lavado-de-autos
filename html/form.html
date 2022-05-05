@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden de trabajo</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  
+  <section class="form-register">
+  <form id="basic-form">
+    <h4>Orden de pedido</h4>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="number" name="rut" id="rut" placeholder="Ingrese su Rut">
+    <input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección" >
+    <input class="controls" type="text" name="comuna" id="comuna"  placeholder="Ingrese su comuna">
+    <input class="controls" type="text" name="marca" id="marca" placeholder="Ingrese su marca">
+    <input class="controls" type="text" name="modelo" id="modelo" placeholder="Ingrese su modelo">
+    <input class="controls" type="text" name="año" id="año" placeholder="Ingrese su año">
+    <input class="controls" type="datetime-local" min="01/01/2022" fecha ingreso>
+
+    <input type="checkbox" name="Revisión tecnica"> Revision tecnica
+    <input type="checkbox" name="Revisión tecnica atrasada"> Revision tecnica atrasada
+    <br>
+
+    <select>
+      <option disabled selected="">Elige servicio a contratar</option>
+      <option> Lavado Exterior $7.000</option>
+      <option> Lavado de motor $ 15.000</option>
+  </select>
+  
+
+    <input class="botons" type="submit" value="Enviar">
+    <p><a href="#">¿Ya tengo Cuenta?</a></p>
+  </form>
+
+  </section>
+
+<script>
+  alert("Estimado cliente completar todos los campos para poder generar su orden de pedido")
+
+  </script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+<script src="/html/form.js"></script>
+    
+</body>
+</html>
